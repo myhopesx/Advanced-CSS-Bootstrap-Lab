@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 5rem;
+        }
+
+        main {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        p {
+            margin-right: 10rem;
+        }
+
+        li {
+            list-style: circle;
+            margin-right: 10rem;
+            padding-top: 0.5rem;
+        }
+
+        .about {
+            margin-left: 15rem;
+        }
+
+        .title::after {
+            content: 'Who We Are';
+            display: block;
+            font-size: 2rem;
+            font-weight: normal;
+        }
+
+        img {
+            filter: drop-shadow(8px 8px 10px gray);
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Amaal Cosmatics</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="./catalog.html">Catalog</a>
+                    <a class="nav-link" href="./contact.html">Contact us</a>
+                    <a class="nav-link" href="./reviews.html">Statics & Reviews</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="bg-light">
+
+        <h1 class="text-center my-5 title">About Us</h1>
+
+        <section class="d-flex justify-content-between" style="margin-top: 10rem;">
+
+            <!-- about us -->
+            <div class="w-50 d-flex flex-column align-items-start about">
+                <h1 class="text-center my-5">Our Vision</h1>
+                <p class="h3">
+                    By ceaselessly developing high-quality, natural, innovative cosmetic products friendly to the user
+                    and
+                    environment we
+                    aim to:
+                </p>
+
+                <ul class="h5 mt-4">
+                    <li>take over the leading market position in the segment of cosmetic care products on
+                        the Slovenian
+                        market and other markets
+                        of former Yugoslavia - to become the first choice of end users as well as professional users,
+                    </li>
+
+                    <li>increase our market share and corporate reputation in our other existing markets,
+                        and
+                    </li>
+
+                    <li>to break into new markets within and beyond the EU</li>
+                </ul>
+
+            </div>
+
+            <!-- img -->
+            <div class="w-50 d-flex justify-content-center">
+                <img class="h-50 border border-danger pd-1" src="../img/about.jpg" alt="">
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
